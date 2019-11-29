@@ -24,7 +24,7 @@ class App extends Component {
     let nextActive = undefined;
   
     if (this.state.rounds >= 5) {
-      this.endHandler
+      this.endHandler()
     }
 
     do {
